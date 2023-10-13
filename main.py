@@ -47,12 +47,13 @@ conv = ['hi' , 'Hello!' , 'how are you' , 'Iam good' , 'what is your name ' , 'M
         , 'how can you help me' , 'I can give you info about faculty of computer science helwan univeristy' , 'what is your purpose' , 'I can give you info aboutfaculty of computer science helwan univeristy' , 'I love you' , 'oohhh really!' , 'goodbye' ,
         'goodbye have a good day' , 'hey' , 'hello' , 'where is faculty' , 'In helwan area in cairo city egypt' , 'what are departments of faculty' , """ General divison 
         CS 
-       , Is
-       and IT
+       , IS
+       , IT
+       and AI
        Credit division 
        software engineering
-       and medical informatics""" , 'How much do tuition fees cost' , 'in general divison departmemts it isfor free but in credit it costs about 30,000 EGP for SWE and 40,000 for MED' 
-       , 'how many studying years' , 'just 4 years' , 'When was the faculty founded' , 'In 18 of july 1994' , 'How much does study fees cost' , 'in general divison departmemts it isfor free but in credit it costs about 30,000 EGP for SWE and 40,000 for MED' 
+       and medical informatics""" , 'How much do tuition fees cost' , 'in general divison departmemts it isfor free but in credit it costs about 36,000 EGP for SWE and 40,000 for MED' 
+       , 'how many studying years' , 'just 4 years' , 'When was the faculty founded' , 'In 18 of july 1994' , 'How much does study fees cost' , 'in general divison departmemts it isfor free but in credit it costs about 36,000 EGP for SWE and 40,000 for MED' 
        'who is dean of the faculty' , 'DR : Ossama Emam' , 'who is faculty agent' , 'DR : Manal Abd Al Kader' , 'how can I attend to the faculty' , 
        'You must pass the high school and suitable grades to attend to this faculty' , 'How can I get more info' , 'For more info visit : https://tinyurl.com/yunnhuu2' 
         , 'can i get your source code' , 'My source code is avaliable at : https://github.com/AhmedEhab5006/Chat-Bot']
@@ -144,7 +145,7 @@ root.title("AlHaytham chat bot")
 customtkinter.set_appearance_mode("Dark")
 root.geometry("1024x576")
 root.resizable(False , False)
-root.iconbitmap("E:\\FCAIH\\Training projects\\SYNC interns\\Chat bot\\Elements\\Images\\Icon.ico")
+root.iconbitmap("Elements\\Images\\Icon.ico")
 title_label = customtkinter.CTkLabel(root , text = "AlHaytham chat bot" , font = customtkinter.CTkFont(size = 20 ))
 title_label.place(x = 412 , y = 20)
 version_label = customtkinter.CTkLabel(root , text = "v1.0")
